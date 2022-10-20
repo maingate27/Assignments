@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="container">
+    
+
+<main>
+    <!--Simple user form reg form-->
+   
+       
+    
+    <div>
+        <h3>User Registration Form</h3>
+        
+    <form  action="reg_success_page.html">
+        <label for="fname">
+            First Name: <input type="text"  name="fname" placeholder="Enter your First name" required >
+        </label> 
+
+        <label for="lname">
+            Last Name: <input type="text"    name="lname" placeholder="Enter your Last name" required>
+        </label> 
+
+        <label for="tel">
+            Phone: <input type="tel" name="tel"  placeholder="Enter your tel">
+        </label> 
+
+        <label for="email">
+            Email: <input type="email" name="useremail"  placeholder="email@example.com" required >
+        </label>
+            <label for="dob">
+            Date of birth: <input type="date" name="userdob">
+        </label>
+        <label for="Gender">
+            Gender: <select name="userGender">
+                <option value="null">--</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                </select>
+        </label>
+        
+        <label for="fcolor">
+            Your Favorite Color: <input type="color" name="fcolor">
+        </label>
+       
+        <button class="registerbtn"  type="submit">Submit</button>
+    </form>
+</div>
+</main>
+
+</body>
+</html>

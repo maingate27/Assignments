@@ -1,0 +1,56 @@
+
+  
+  *{
+      margin: 0;
+      padding: 0;
+  }
+
+
+
+main{
+    display: grid;
+    grid-template-areas: 
+    'ab'
+    'cd'
+    ;
+    
+    
+  }
+
+main div{
+    padding: 2em;
+    text-align: center;
+  }
+  .item-a{
+  
+    grid-area: a;
+    background-color: #04AA6D;
+  
+  
+  
+  }
+  .item-b{
+  
+    grid-area: b;
+    background-color: #333;
+  
+  }
+  .item-c{
+  
+    grid-area: c;
+    background-color: rgb(81, 107, 107);
+    
+  }
+  .item-d{
+  
+    grid-area: c;
+    background-color: rgb(19, 226, 226);
+    
+  }
+  .item-e{
+  
+    grid-area: c;
+    background-color: rgb(81, 107, 107);
+    
+  }
+  
